@@ -7,4 +7,9 @@ Combined Length = 525 from 5 sequences
 Average Length of contig = 210  
 
 20 Oct 2013  
-Oh dear! I've realised that the script was wrong and didn't do what I wanted it to.
+Oh dear! I've realised that the script was wrong and didn't do what I wanted it to. I've edited the script and pushed it github.
+Here is the working version of [Fasta_getLength.pl](https://github.com/ethering/tsl_training/blob/15bbbd0f106c4659aa4ae49401d5356ad68c3018/scripts/perl/Fasta_getLength.pl)   
+`bsub -q TSL-Test128 -We 1 "source perl-5.16.3; perl scripts/perl/Fasta_getLength.pl data/refseq.fasta" `  
+Output:   
+Combined Length = 525 from 5 sequences  
+Average Length of contig = 105
