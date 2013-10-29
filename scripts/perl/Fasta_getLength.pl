@@ -23,4 +23,4 @@ while ( my $seq = $in->next_seq() )
 
 my $averageLength = $combinedLength/$contigCount * 2;
 print "Combined Length = $combinedLength from $contigCount sequences\n";
-pring "Average Length of contig = $averageLength \n";
+print"Average Length of contig = $averageLength \n";
