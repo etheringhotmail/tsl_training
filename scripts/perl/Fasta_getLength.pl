@@ -21,6 +21,6 @@ while ( my $seq = $in->next_seq() )
 	$contigCount++;
 }
 
-my $averageLength = $combinedLength/$contigCount * 2;
+my $averageLength = $combinedLength/$contigCount;
 print "Combined Length = $combinedLength from $contigCount sequences\n";
 print"Average Length of contig = $averageLength \n";
