@@ -11,6 +11,6 @@ my $outfile = shift or die;
 open(OUT, ">$outfile");
 
 
-my $total = $number1 + $number2 +1;
+my $total = $number1 + $number2;
 
 print OUT $total, "\n";
