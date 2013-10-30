@@ -9,3 +9,6 @@ I ran the script and have the output as:
 I've realised that I want to edit my addTwoNumbers.pl script and re-do my analysis.
 My new script version is:
 6fc8ecad3a7af19904495c8fe8fd47218f8ae21c:bioinformatics_notebook/test2/data/addTwoNumbers.pl
+
+Re-ran the script and output is at:
+45d40e357d38671be6405e973d8a303226658aad:bioinformatics_notebook/test2/data/TwoNumbersAdded.txt
